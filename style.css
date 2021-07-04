@@ -2,6 +2,12 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 35px;
+}
 .orange-color{
     color: hsl(39, 100%, 50%);
 }
@@ -38,9 +44,38 @@ a.hireme{
 .fasion-icon{
     width: 50px;
     height: auto;
+}.experience-unit{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 25px;
+    box-shadow: 10px 10px 35px gray;
+    border-radius: 5px;
+
 }
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack-developer-unit{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#developer-unit{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;    
+}
+footer{
+    text-align: center;
+    font-size: large;
+    margin-top: 100px;
+    background-color: coral;
+    color: white;
 
-
+}
 
 
 
